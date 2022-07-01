@@ -27,7 +27,7 @@ setuptools.setup(
     author='Ulf Hamster',
     author_email='554c46@gmail.com',
     license='Apache License 2.0',
-    packages=['keras-hrp'],
+    packages=['keras_hrp'],
     install_requires=[
         'tensorflow>=2.8.0,<3',
         'numpy>=1.19.5,<2',
