@@ -144,6 +144,7 @@ Please contribute using [Github Flow](https://guides.github.com/introduction/flo
 The "Evidence" project was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - [433249742](https://gepris.dfg.de/gepris/projekt/433249742) (GU 798/27-1; GE 1119/11-1).
 
 ### Citation
+Please cite the arXiv Preprint when using this software for any purpose.
 
 ```
 @misc{hamster2023rediscovering,
