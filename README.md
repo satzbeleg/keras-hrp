@@ -1,7 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/keras-hrp.svg)](https://badge.fury.io/py/keras-hrp)
 [![PyPi downloads](https://img.shields.io/pypi/dm/keras-hrp)](https://img.shields.io/pypi/dm/keras-hrp)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/satzbeleg/keras-hrp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/keras-hrp/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/satzbeleg/keras-hrp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/keras-hrp/context:python)
+
 
 # keras-hrp
 Hashed Random Projection layer for TF2/Keras.
@@ -140,3 +139,19 @@ Please [open an issue](https://github.com/satzbeleg/keras-hrp/issues/new) for su
 
 ### Contributing
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/satzbeleg/keras-hrp/compare/).
+
+### Acknowledgements
+The "Evidence" project was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - [433249742](https://gepris.dfg.de/gepris/projekt/433249742) (GU 798/27-1; GE 1119/11-1).
+
+### Citation
+
+```
+@misc{hamster2023rediscovering,
+      title={Rediscovering Hashed Random Projections for Efficient Quantization of Contextualized Sentence Embeddings}, 
+      author={Ulf A. Hamster and Ji-Ung Lee and Alexander Geyken and Iryna Gurevych},
+      year={2023},
+      eprint={2304.02481},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
