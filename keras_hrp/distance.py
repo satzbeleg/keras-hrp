@@ -4,13 +4,13 @@ import scipy.spatial.distance
 from typing import List
 
 
-@numba.jit
+@numba.jit(nopython=True)
 def hammingsim_two(v1: List[bool], v2: List[bool], sz: int) -> float:
     """ Matching coefficient """
     return (v1 == v2).sum() / sz
 
 
-@numba.jit
+@numba.jit(nopython=True)
 def hammingsim_matrix(x: List[List[bool]]) -> List[List[float]]:
     """ Matching coefficient between two boolean vectors as matrix """
     n, sz = x.shape
@@ -23,7 +23,7 @@ def hammingsim_matrix(x: List[List[bool]]) -> List[List[float]]:
     return s
 
 
-@numba.jit
+@numba.jit(nopython=True)
 def hammingsim_list(x: List[List[bool]]) -> List[float]:
     """ Matching coefficient between two boolean vectors as list """
     n, sz = x.shape
