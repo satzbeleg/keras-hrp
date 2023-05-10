@@ -99,7 +99,7 @@ pip install git+ssh://git@github.com/satzbeleg/keras-hrp.git
 ### Install a virtual environment
 
 ```sh
-python3.7 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt --no-cache-dir
@@ -118,7 +118,7 @@ pip install -r requirements-demo.txt --no-cache-dir
 Publish
 
 ```sh
-pandoc README.md --from markdown --to rst -s -o README.rst
+# pandoc README.md --from markdown --to rst -s -o README.rst
 python setup.py sdist 
 twine upload -r pypi dist/*
 ```
