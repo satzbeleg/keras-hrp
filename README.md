@@ -1,5 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/keras-hrp.svg)](https://badge.fury.io/py/keras-hrp)
 [![PyPi downloads](https://img.shields.io/pypi/dm/keras-hrp)](https://img.shields.io/pypi/dm/keras-hrp)
+[![DOI](https://zenodo.org/badge/508984862.svg)](https://zenodo.org/badge/latestdoi/508984862)
 
 
 # keras-hrp: Hashed Random Projection layer for TF2/Keras
