@@ -2,7 +2,7 @@
 [![PyPi downloads](https://img.shields.io/pypi/dm/keras-hrp)](https://img.shields.io/pypi/dm/keras-hrp)
 
 
-# keras-hrp
+# keras-hrp: Hashed Random Projection layer for TF2/Keras
 Hashed Random Projection layer for TF2/Keras.
 
 ## Usage

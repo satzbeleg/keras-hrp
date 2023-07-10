@@ -11,6 +11,7 @@
     "random projection",
     "hashed random projection",
     "efficient NLP",
-    "embedding compression"
+    "embedding compression",
+    "keras", "tensorflow"
   ]
 }
